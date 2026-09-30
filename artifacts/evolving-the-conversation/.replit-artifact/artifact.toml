@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Evolving the Conversation"
+version = "1.0.0"
+id = "artifacts/evolving-the-conversation"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25760
+
+[services.development]
+run = "pnpm --filter @workspace/evolving-the-conversation run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/evolving-the-conversation", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/evolving-the-conversation/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25760"
+BASE_PATH = "/"

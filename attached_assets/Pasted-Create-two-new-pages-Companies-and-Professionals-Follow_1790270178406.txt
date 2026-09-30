@@ -1,0 +1,41 @@
+Create two new pages: Companies and Professionals. Follow the exact text provided below — do not paraphrase or rewrite it. Match the existing design system (colors, fonts, spacing, card styles, button styles) used on the Home and About pages. Add both pages to the routing and connect them to the "Explore Company Programs" and "Explore Professional Programs" buttons already on the homepage (if not already linked). Add English and Spanish translations for all new text following the existing translation file pattern.
+
+PAGE 1: Companies
+
+Page heading: "Companies"
+Subheading: "English training for teams that need to communicate with more confidence at work."
+Subtitle: "We help companies develop professionals who can participate more actively in meetings, communicate more clearly with global teams, and take ownership of their English progress."
+Primary button: "Request a Corporate Consultation" (link to the Contact page)
+Section title: "Your team may know English, but are they using it with confidence?"
+Section text: "Many professionals understand English, but still hesitate when they need to speak in meetings, ask questions, present updates, or communicate with international colleagues. Our programs are designed to help employees move from passive understanding to active participation."
+"What We Offer" section with 4 cards:
+"Corporate English Programs" — "Structured group programs by level for companies that want consistent progress and practical workplace communication."
+"Diagnostic Assessments" — "English evaluations that help companies understand current level, strengths, gaps, and next steps for their team."
+"Workshops" — "Short, practical sessions focused on workplace communication skills like meetings, presentations, pronunciation, introductions, confidence, or participation."
+"Professional English Coaching for Key Roles" — "Focused support for professionals who need English for leadership, interviews, promotions, presentations, or higher-visibility roles."
+"What Makes It Different" section, title: "More than English classes. A structured path to participation and progress." List: workplace relevance, confidence-building, accountability, attendance and participation tracking, level-based structure, progress reporting, human support.
+"Who This Is For" section, list: HR departments, L&D teams, multinational companies, supervisors, teams that work with English-speaking colleagues, professionals preparing for more visibility, employees who need English for meetings, presentations, reporting, and collaboration.
+"What Companies Can Expect" section, list: clear program structure, level-based groups, practical workplace content, attendance tracking, participation follow-up, progress reports, recommendations, workshops or extra support when needed, and a learning experience that is professional, warm, and organized.
+Callout text: "English is not only a language skill. For many professionals, it is the bridge to more visibility, better opportunities, stronger leadership presence, and career growth."
+Closing section: title "Let's build an English program that fits your team." text: "Whether your company needs a full English program, diagnostic assessments, workshops, or support for key employees, we can help you identify the best next step." Button: "Request a Corporate Consultation"
+IMPORTANT: Do NOT show any pricing on this page.
+
+PAGE 2: Professionals
+
+Page heading: "Professionals"
+Main message: "Professional English for the conversations that matter at work."
+Subtitle: "We help professionals communicate in English with more clarity, confidence, and structure — so they can participate in meetings, present ideas, speak with colleagues, and feel more prepared in real workplace situations."
+Primary button: "Find the Right Program" (link to Contact page)
+Section title: "You may know more English than you feel ready to use."
+Section text: "Many professionals understand English, but still hesitate when it is time to speak. They overthink, translate in their head, worry about mistakes, or stay quiet even when they have something valuable to say. Our programs help professionals move from passive understanding to active communication."
+"What We Help With" section, list: speaking more confidently, participating in meetings, giving short updates, asking and answering questions, explaining their work, improving pronunciation, organizing ideas, preparing for presentations, communicating with international colleagues, and building consistency with English practice.
+Section title: "This is not about memorizing more English. It is about learning how to use the English you have with more confidence and purpose." Mention: real workplace situations, practical phrases, confidence-building, correction without shame, structure and consistency, learner ownership, and human support.
+"Who This Is For" section, list: professionals working in multinational companies, professionals who need English for meetings, professionals who want better fluency, professionals who feel nervous speaking, professionals who want to prepare for more visibility, professionals who need English for work travel, presentations, or communication with global teams, and professionals who want structure instead of random practice.
+Callout section: title "Your English does not have to be perfect to be powerful." text: "The goal is not perfection. The goal is progress, participation, and confidence." Button: "Schedule a Conversation"
+Pricing section: instead of showing prices, use this text: "Programs are recommended after a short conversation based on your goals, level, schedule, and type of support needed."
+Two program teaser cards near the bottom:
+"Momentum Program" — "For beginner or low-level professionals who need to build a strong foundation and start using English in practical workplace and social situations." Add a "Coming Soon" badge. Button: "View Momentum Program" (link to placeholder route "/momentum").
+"Professional English Practice Club" — "For professionals who want ongoing workshops, practice, phrase guides, and a lower-commitment way to keep improving." Button: "Explore Workshops" (link to placeholder route "/workshops").
+IMPORTANT: Do NOT show any specific dollar pricing on this page.
+
+After both pages are built: run typecheck and build, fix any errors, and tell me exactly which files were created/changed, organized by page.

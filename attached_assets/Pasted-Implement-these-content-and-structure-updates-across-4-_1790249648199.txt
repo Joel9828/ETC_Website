@@ -1,0 +1,44 @@
+Implement these content and structure updates across 4 areas. Follow the exact text provided — do not paraphrase or rewrite it. Keep all existing styling, colors, layout patterns, and translation system (English/Spanish) intact — only update text, add new sections/fields, and rename items as specified.
+
+1. Menu fixes:
+
+Fix typo "Countact Us" → "Contact Us"
+Rename "FOR CORPORATIONS" → "Companies"
+Rename "FOR PROFESSIONALS" → "Professionals"
+Do not add any new menu items.
+
+2. Homepage updates:
+
+Main title: "Professional English for real workplace communication."
+Subtitle: "We help Latin American professionals and corporate teams communicate in English with more clarity, confidence, and ownership — so they can participate, lead, interview, present, and grow in global workplaces."
+Main CTA button: "Schedule a Conversation"
+Add a 3-path section with heading "Choose the path that fits your goals." containing three cards:
+Companies: "For HR, L&D, and corporate teams that need English programs, assessments, workshops, accountability, and progress reports." Button: "Explore Company Programs"
+Professionals: "For individual professionals who want to improve their English for meetings, presentations, conversations, pronunciation, and confidence." Button: "Explore Professional Programs"
+Workshops: "For professionals who want ongoing practice, workshops, and a lower-commitment way to stay connected to English." Button: "Explore Workshops"
+Add a short explanation section (near the top, after the hero) with this text: "Many professionals understand English, but still hesitate when they need to speak in meetings, interviews, presentations, or conversations with global teams. Our programs help professionals move from passive understanding to active, confident communication."
+Replace the existing "SHORT BELIEF" section if not already renamed — confirm it says "WHY COMMUNICATION MATTERS" (this may already be done in a previous session — verify and skip if already correct).
+Add a "What Makes Us Different" section, title: "Our approach combines English, confidence, accountability, and real workplace communication." List these 7 items (as icons/bullets, whatever fits existing design pattern): Confidence through clarity, Real workplace relevance, Learner ownership, Growth mindset, Structure and consistency, Professional warmth, Human connection.
+Add a closing CTA section: title "Not sure where to start?", text "Whether you are looking for support for your team, for yourself, or for your next career move, we can help you identify the best path." Button: "Schedule a Conversation"
+
+3. About page updates:
+
+Title: "About Evolving the Conversation"
+Intro paragraph: "Evolving the Conversation was created to help professionals do more than study English. It was created to help them use English to participate, connect, lead, and grow. We believe English is not just a subject. For many professionals, it is the bridge to visibility, opportunity, and confidence in global workplaces."
+Founder section: "Marichelle Ciniglio is the founder and director of Evolving the Conversation. Her background in education, psychology, counseling, and coaching has shaped a methodology that helps learners build both language ability and the confidence to use it. With more than 25 years of experience, she has worked with professionals, teams, and organizations to create learning experiences that are practical, structured, and deeply human."
+
+4. Contact form fields — update the existing form to include these fields, in this order:
+
+Full Name (required)
+Company (optional) — label: "Company, if applicable"
+Email (required, valid format)
+WhatsApp / Phone (required)
+Dropdown (required) — label: "Are you contacting us as a company or as an individual professional?" — options: "Company", "Individual Professional"
+Dropdown (required) — label: "What are you interested in?" — options: "Corporate Program", "Professional English Program", "Workshops / Membership", "Assessment", "Other"
+Message (required)
+
+Keep the existing SMTP email-sending logic working exactly as is — just add the two new fields (Company, and the two dropdowns) to the form UI, the validation, and make sure their values are included in the email body that gets sent. Do not change the email sending mechanism itself.
+
+Add English and Spanish translations for all new text (homepage sections, About page, form labels/options) following the existing translation file pattern in the project.
+
+After all changes: run typecheck and build, fix any errors that come up, and give me a clear list of exactly which files were changed, organized under each of the 4 numbered sections above.

@@ -1,0 +1,49 @@
+Update the existing Contact Us functionality. Do NOT change unrelated pages or the existing design.
+
+Frontend:
+artifacts/evolving-the-conversation/src/pages/Contact.tsx
+Backend:
+artifacts/api-server/src/routes/index.ts
+
+1. Keep the existing Contact page, contact cards, styling, colors and translations. Add a professional responsive form containing:
+- Full Name (required)
+- Email (required + valid format)
+- Phone/Contact Number (required)
+- Message (required)
+- Send Message button
+
+2. Submit the form to POST /api/contact. Add server-side validation and proper success/error responses.
+
+3. Use Resend on the backend to email the submission to the manager.
+
+4. IMPORTANT: Never hard-code email addresses or the Resend API key in source code.
+Store them in Replit Secrets / Environment Variables:
+- RESEND_API_KEY
+- CONTACT_RECEIVER_EMAIL
+- CONTACT_FROM_EMAIL
+
+Set CONTACT_RECEIVER_EMAIL initially to:
+hello@evolvingtheconversation.com
+
+The receiver email is temporary and may change later. Make it fully configurable so I can change CONTACT_RECEIVER_EMAIL in Replit Secrets without changing any code.
+
+IMPORTANT: Clearly tell me exactly where these variables are stored and how I can change CONTACT_RECEIVER_EMAIL myself later, even if the Replit Agent limit is exhausted.
+
+5. Use the visitor's email as Reply-To. Never expose RESEND_API_KEY to the frontend.
+
+6. Add loading, success and error states, prevent double submission, reset the form after successful submission, and keep it mobile/desktop responsive.
+
+7. If the existing Contact Us button/routing already works, keep it unchanged.
+
+8. Follow the existing project architecture and translation system. Do not add unnecessary dependencies or a database.
+
+9. Run typecheck/build and fix any errors.
+
+Actually implement everything in the project, don't just explain it.
+
+When finished, tell me:
+- Files changed
+- Dependencies added
+- Exactly where to add/change the 3 environment variables
+- How I can change the receiving email myself later
+- How to test the form

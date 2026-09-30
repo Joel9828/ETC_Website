@@ -1,0 +1,27 @@
+Create two new pages and update the blog categories. Follow the exact text below — do not paraphrase. Match the existing design system (colors, fonts, spacing, cards, buttons) used across the site. Add English and Spanish translations following the existing pattern. Both new pages should NOT have functional payment/checkout — use placeholder buttons only, as specified below.
+
+PAGE 1: Momentum Program (route: /momentum)
+
+Program name/heading: "Momentum Program"
+Main idea/subtitle: "For beginner or low-level professionals who need to build a strong English foundation and start using English with more confidence in practical workplace and social situations."
+Add a visible "Coming Soon" badge or banner near the top, since this program is not fully launched yet.
+Include a simple structure section outlining (using placeholder/generic wording since final details aren't ready yet): who it's for, what problem it solves, and a note that full details (weekly structure, schedule, pricing) will be added soon.
+Primary button: "Join the Waitlist" — this should link to the Contact page.
+Do NOT show any pricing or payment button — this program is not ready for purchase yet.
+
+PAGE 2: Professional English Practice Club (route: /workshops)
+
+Heading: "Professional English Practice Club"
+Main idea/subtitle: "A monthly membership or workshop program for professionals who want ongoing practice, real workplace phrases, and more confidence speaking in English."
+Include a section listing what it includes: live workshops, practical English topics, phrase guides, recordings, monthly practice, and invitations to upgrade into larger programs.
+Pricing section: show these two pricing options clearly as informational cards (not functional checkout):
+"$10/month when paid yearly"
+"$25/month when paid monthly"
+Add a small note near the pricing: "Membership sign-up opening soon."
+Primary button: "Join the Membership" — this should NOT process any payment. Link to the Contact page or show a "Coming soon" message instead. Do not integrate any real payment processor.
+
+BLOG CATEGORIES UPDATE:
+
+On the existing Blogs page, update the category list/filter to include: English for Meetings, English for Career Growth, Professional Confidence, Presentations in English, English for Interviews, Pronunciation and Clarity, Workplace Communication, English for HR and Teams, Learner Ownership, Leadership Communication. Do not change any existing blog post content — only update the category taxonomy/filter options.
+
+After all changes: run typecheck and build, fix any errors, and tell me exactly which files were created/changed, organized under each of the 3 sections above.
